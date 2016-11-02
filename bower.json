@@ -2,6 +2,11 @@
   "name": "links-bug",
   "dependencies": {
     "ember": "~2.8.0",
-    "ember-cli-shims": "0.1.1"
+    "ember-cli-shims": "~0.1.1",
+    "chartist": "~0.9.8",
+    "blueimp-md5": "2.1.0",
+    "font-awesome": "~4.5.0",
+    "remarkable": "^1.7.1",
+    "highlightjs": "^9.7.0"
   }
 }

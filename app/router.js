@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('apple');
+  this.route('orange');
 });
 
 export default Router;

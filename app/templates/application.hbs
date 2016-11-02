@@ -1,0 +1,12 @@
+<h1>Will it link?</h1>
+
+{{#links-with-follower class="my-nav"}}
+  {{link-to 'Home' 'index' tagName='li'}}
+  {{#link-to 'apple' tagName='li'}}Apple{{/link-to}}
+  {{#link-to 'orange' tagName='li'}}Orange{{/link-to}}
+  {{link-to 'Not a link' 'nothin' tagName='li'}}
+{{/links-with-follower}}
+
+<div>
+  {{outlet}}
+</div>
